@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 10vw 10vw;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    gap: 5vh;
+}
+.parent div{
+    border-radius: 10%;
+}
+.first{
+    background-color: yellow;
+    grid-area: span 2 /span 2;
+}
+.second{
+    background-color: red;
+}
+.third{
+    background-color: black;
+}
+.fourth{
+    background-color: blue;
+}
+.fifth{
+    background-color: green;
+}
