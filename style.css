@@ -210,9 +210,9 @@ nav {
     display: flex;
     gap: 20px;
     margin-top: 20px;
-    width: 90vw;
+    width: 80vw;
 justify-self: center;
-justify-content: center;
+/* justify-content: center; */
     /* height: auto; */
     overflow-x: scroll;
       scrollbar-width: none; /* For Firefox */
@@ -226,7 +226,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 150px;
     height: 40px;
     border: 1px solid #A76C34;
     border-radius: 25px;
@@ -244,7 +244,7 @@ justify-content: center;
 
 .Nations-card {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     margin-top: 20px;
     width: 90vw;
     height: auto;
@@ -262,7 +262,7 @@ justify-content: center;
 
 .egypt {
     height: 400px;
-    width: 300px;
+    width: 350px;
     /* border-radius: 20px; */
     flex-shrink: 0;
 }
@@ -271,7 +271,7 @@ justify-content: center;
 }
 .nigeria{
       height: 400px;
-    width: 300px;
+    width: 350px;
 flex-shrink: 0;
 }
 .nigeria-image{
@@ -279,7 +279,7 @@ flex-shrink: 0;
 }
 .sudan{
       height: 400px;
-    width: 300px; 
+    width: 350px; 
     flex-shrink: 0;
 }
 .sudan-image{
@@ -287,7 +287,7 @@ flex-shrink: 0;
 }
 .tunisia{
       height: 400px;
-    width: 300px; 
+    width: 350px; 
     flex-shrink: 0; 
 }
 .tunisia-image{
@@ -334,6 +334,7 @@ flex-shrink: 0;
     margin-bottom: 30px;
     font-size: 40px;
     color: #A76C34;
+    justify-self: center;
 }
 .gallery-sect{
 display: flex;
@@ -543,7 +544,7 @@ background-image: url(/IMAGES/swimmingPool.jpg);
     }
 
     .sect-4 {
-        align-items: flex-start;
+        align-items: center;
         padding-left: 2vw;
         box-sizing: border-box;
         overflow-x: hidden;
@@ -559,10 +560,11 @@ background-image: url(/IMAGES/swimmingPool.jpg);
     .buttons-cont {
         align-self: center;
         gap: 30px;
-        overflow-x: auto;
+        overflow-x: scroll;
     }
     .Nations-card{
-        overflow-x: auto;
+        gap: 50px;
+        overflow-x: scroll;
     }
     .gallery-sect{
         padding: 0;
@@ -601,21 +603,21 @@ background-image: url(/IMAGES/swimmingPool.jpg);
     }
     .buttons-cont{
         /* width: 300px; */
-        overflow-x: auto;
+        overflow-x: scroll;
         display: flex;
        align-items: center;
        /* justify-content: space-evenly;  */
         /* box-sizing: border-box; */
     }
-    .buttons{
+    /* .buttons{
         width: 150px;
         height: 40px;
-    }
+    } */
     .sect-4{
-          overflow-x:hidden;
+          /* overflow-x:hidden; */
     }
         .Nations-card{
-        overflow-x: auto;
+        overflow-x: scroll;
     }
 
 }
