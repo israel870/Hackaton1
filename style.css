@@ -262,7 +262,7 @@ justify-self: center;
 
 .egypt {
     height: 400px;
-    width: 350px;
+    width: 300px;
     /* border-radius: 20px; */
     flex-shrink: 0;
 }
@@ -271,7 +271,7 @@ justify-self: center;
 }
 .nigeria{
       height: 400px;
-    width: 350px;
+    width: 300px;
 flex-shrink: 0;
 }
 .nigeria-image{
@@ -279,7 +279,7 @@ flex-shrink: 0;
 }
 .sudan{
       height: 400px;
-    width: 350px; 
+    width: 300px; 
     flex-shrink: 0;
 }
 .sudan-image{
@@ -287,7 +287,7 @@ flex-shrink: 0;
 }
 .tunisia{
       height: 400px;
-    width: 350px; 
+    width: 300px; 
     flex-shrink: 0; 
 }
 .tunisia-image{
