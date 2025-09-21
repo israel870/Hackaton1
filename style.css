@@ -544,7 +544,8 @@ background-image: url(/IMAGES/swimmingPool.jpg);
 
     .sect-4 {
         align-items: flex-start;
-        padding-left: 100px;
+        padding-left: 2vw;
+        box-sizing: border-box;
         overflow-x: hidden;
         text-align: center;
     }
