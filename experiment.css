@@ -6,8 +6,8 @@ body{
 .parent{
     display: grid;
     grid-template-columns: 10vw 10vw;
-    grid-template-rows: 20vh 20vh 20vh 20vh;
-    gap: 5vh;
+    grid-template-rows: repeat(4,a);
+    gap: 40px;
 }
 .parent div{
     border-radius: 10%;
@@ -15,16 +15,27 @@ body{
 .first{
     background-color: yellow;
     grid-area: span 2 /span 2;
+    width: 25vw;
+    aspect-ratio: 1/1;
+
 }
 .second{
     background-color: red;
+    width: 10vw;
+    aspect-ratio: 1/1;
 }
 .third{
     background-color: black;
+        width: 10vw;
+    aspect-ratio: 1/1;
 }
 .fourth{
     background-color: blue;
+        width: 10vw;
+    aspect-ratio: 1/1;
 }
 .fifth{
     background-color: green;
+        width: 10vw;
+    aspect-ratio: 1/1;
 }
